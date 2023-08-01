@@ -1,0 +1,27 @@
+ clear
+    2  sudo yum install git -y
+    3  sudo yum install java -y
+    4  sudo yum install docker -y
+    5  sudo systemctl start docker
+    6  sudo systemctl status docker
+    7  clear
+    8  git clone
+    9  clear
+   10  git clone https://github.com/GRR1317/poojastores.git
+   11  ls -al
+   12  cd poojastores/
+   13  ll
+   14  cd ppojastores/
+   15  ll
+   16  cd trunk/
+   17  ll
+   18  cd PoojaStores/
+   19  ll
+   20  vi Dockerfile
+   21  vi .env
+   22  docker build -t pooja .
+   23  docker images
+   24  docker ps -a
+   25  docker run -d -p 5000:80 pooja
+   26  docker ps -a
+   27  history
