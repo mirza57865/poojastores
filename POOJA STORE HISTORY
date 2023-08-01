@@ -1,4 +1,5 @@
- clear
+ramesh history
+clear
     2  sudo yum install git -y
     3  sudo yum install java -y
     4  sudo yum install docker -y
@@ -25,3 +26,77 @@
    25  docker run -d -p 5000:80 pooja
    26  docker ps -a
    27  history
+
+**************************************************************************
+
+sohail history
+
+ 1  ll
+    2  sudo yum install git
+    3  sudo yum install docker
+    4  git clone 
+    5  git clone https://github.com/mirza57865/poojastores.git
+    6  ll
+    7  cd poojastores/
+    8  ll
+    9  cd ppojastores/
+   10  ll 
+   11  cd trunk/
+   12  ll
+   13  cd PoojaStores/
+   14  ll
+   15  vi .env
+   16  vi Dockerfile
+   17  ll
+   18  docker build -t pooja .
+   19  systemctl start docker
+   20  systemctl status docker
+   21  docker build -t pooja .
+   22  docker images 
+   23  docker run -d -p 8080:8080 image npm start
+   24  docker run -d -p 5000:80 pooja
+   25  docker ps -a
+   26  docker run -d -p :5000:80: pooja
+   27  docker run -d -p 5000:80 pooja
+   28  docker run -d -p '5000:80" c8090201d5d1 
+   29  docker run -d -p "5000:80" c8090201d5d1 
+   30  docker run -itd -p "5000:80" c8090201d5d1 
+   31  vi .env
+   32  docker run -itd -p "5000:80" c8090201d5d1 
+   33  docker ps -a
+   34  sudo chmod g+rw /var/run/docker.sock
+   35  sudo chmod 666 /var/run/docker.sock
+   36  docker container prune -f
+   37  docker image prune -a -f
+   38  docker build -t pooja .
+   39  docker ps -a
+   40  docker images
+   41  docker run -d -p 5000:5000 pooja
+   42  docker ps -a
+   43  docker images
+   44  docker run -itd -p "5000:80" a75aa5ad5253
+   45  clear
+   46  docker image prune -a -f
+   47  docker container prune -f
+   48  clear
+   49  docker images
+   50  docker ps -a
+   51  docker run -d -p 5000:80 pooja
+   52  docker ps-a
+   53  docker ps -a
+   54  docker rm cab3464a9736
+   55  docker ps -a
+   56  docker image prune -a
+   57  clear
+   58  docker images
+   59  clear
+   60  vi Dockerfile 
+   61  ls -al
+   62  vi Dockerfile 
+   63  docker images
+   64  clear
+   65  docker build -t pooja .
+   66  docker run -d -p 5000:80 pooja
+   67  docker ps -a
+   68  vi Dockerfile 
+   69  history
