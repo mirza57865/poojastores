@@ -22,3 +22,6 @@ WORKDIR /app
 
 # Copy the published application from the build image
 COPY --from=build /app/out ./
+
+# Set the entry point for the application
+ENTRYPOINT ["dotnet", "PoojaStores.dll"]
